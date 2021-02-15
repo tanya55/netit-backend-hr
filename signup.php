@@ -6,34 +6,34 @@
                name         = "user_name">
         <?php displayFormError('signup', 'user_name'); ?>
         
-        <input placeholder  ="User first name" 
+        <input placeholder  ="First name" 
                class        ="input"  
                type         ="text"      
-               name         ="user_fname">
-        <?php displayFormError('signup', 'user_fname'); ?>
+               name         ="first_name">
+        <?php displayFormError('signup', 'first_name'); ?>
         
-        <input placeholder  = "User last name" 
+        <input placeholder  = "Last name" 
                class        = "input"  
                type         = "text"      
-               name         = "user_lname">
-        <?php displayFormError('signup', 'user_lname'); ?>
+               name         = "last_name">
+        <?php displayFormError('signup', 'last_name'); ?>
         
-        <input placeholder  = "User E-mail address" 
+        <input placeholder  = "Email address" 
                class        = "input"  
                type         = "email"      
-               name         = "user_email">
-        <?php displayFormError('signup', 'user_email'); ?>
+               name         = "email">
+        <?php displayFormError('signup', 'email'); ?>
         
         <input placeholder  = "Password" 
                class        = "input"  
                type         = "password"  
-               name         = "user_pass">
-        <?php displayFormError('signup', 'user_pass'); ?>
+               name         = "password">
+        <?php displayFormError('signup', 'password'); ?>
         
         <input placeholder  = "Repeat password" 
                class        = "input"  
                type         = "password"  
-               name         = "user_pass_repeat">
+               name         = "password_repeat">
         <input type         = "hidden"  
                name         = "user_request_tokken"
                value        = "1">
@@ -42,31 +42,31 @@
         <input placeholder  = "User number" 
                class        = "input"  
                type         = "number"      
-               name         = "user_number">
-        <?php displayFormError('signup', 'user_number'); ?>
+               name         = "number">
+        <?php displayFormError('signup', 'number'); ?>
         
         <input placeholder  = "User age" 
                class        = "input"  
                type         = "number"      
-               name         = "user_age">
-        <?php displayFormError('signup', 'user_age'); ?>
+               name         = "age">
+        <?php displayFormError('signup', 'age'); ?>
         
         <input placeholder  = "User gender" 
                class        = "input"  
                type         = "text"      
-               name         = "user_gender">
-        <?php displayFormError('signup', 'user_gender'); ?>
+               name         = "gender">
+        <?php displayFormError('signup', 'gender'); ?>
         
         <input placeholder  = "User city" 
                class        = "input"  
                type         = "text"      
-               name         = "user_city">
-        <?php displayFormError('signup', 'user_city'); ?>
+               name         = "city">
+        <?php displayFormError('signup', 'city'); ?>
         
         <input placeholder  = "User category" 
                class        = "input"  
                type         = "text"      
-               name         = "user_category">
-        <?php displayFormError('signup', 'user_category'); ?>
+               name         = "category">
+        <?php displayFormError('signup', 'category'); ?>
     </form>
 </div>
