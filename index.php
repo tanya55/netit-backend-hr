@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Платформа за търсене и предлагане на работа</title>
     </head>
     <body>
         <?php
-        // put your code here
+        echo  Database::delete('tb_users', array('age' => '10'));
         ?>
     </body>
 </html>
